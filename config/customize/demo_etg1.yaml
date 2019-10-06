@@ -25,6 +25,9 @@ sensor.inne_etg1_stue_sofa_light:
 sensor.inne_etg1_stue_gulvvarme:
   icon: mdi:radiator
 
+sensor.inne_etg1_stue_rullgardiner:
+  icon: mdi:blinds-open
+
 sensor.inne_etg1_kjokken_light:
   icon: mdi:ceiling-light
 
@@ -36,6 +39,9 @@ sensor.inne_etg1_tv_light:
 
 sensor.inne_etg1_tv_gulvvarme:
   icon: mdi:radiator
+
+sensor.inne_etg1_tv_rullgardiner:
+  icon: mdi:blinds
 
 sensor.inne_etg1_bad_light:
   icon: mdi:ceiling-light

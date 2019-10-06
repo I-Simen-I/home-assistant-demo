@@ -167,6 +167,7 @@
                                     "entity": "sensor.inne_etg0_number_of_lights_on"
                                 }
                             ],
+                            "show_header_toggle": false,
                             "title": "Etg 0",
                             "type": "entities"
                         },
@@ -179,6 +180,7 @@
                                     "entity": "sensor.inne_etg1_number_of_lights_on"
                                 }
                             ],
+                            "show_header_toggle": false,
                             "title": "Etg 1",
                             "type": "entities"
                         },
@@ -191,6 +193,7 @@
                                     "entity": "sensor.inne_etg2_number_of_lights_on"
                                 }
                             ],
+                            "show_header_toggle": false,
                             "title": "Etg 2",
                             "type": "entities"
                         }
@@ -393,6 +396,9 @@
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_stue_gulvvarme"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_stue_rullgardiner"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -425,6 +431,9 @@
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_tv_gulvvarme"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_tv_rullgardiner"
                                 }
                             ],
                             "show_header_toggle": false,
