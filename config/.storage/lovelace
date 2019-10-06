@@ -469,37 +469,85 @@
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg2_loftstue_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg2_loftstue_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg2_loftstue_gulvvarme"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Loftstue",
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg2_bad_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg2_bad_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg2_bad_gulvvarme"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Bad",
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg2_kontor1_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg2_kontor1_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg2_kontor1_gulvvarme"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Kontor 1",
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg2_kontor2_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg2_kontor2_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg2_kontor2_gulvvarme"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Kontor 2",
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg2_soverom_light"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Soverom",
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg2_wic_light"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Walk in clocet",
                             "type": "entities"

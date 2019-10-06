@@ -1,6 +1,6 @@
 inne_etg2_average_temperature:
   friendly_name: 'Gjennomsnittstemperatur'
-  value_template: '{{ ((float(21.4))/ 1) | round(2) }}'
+  value_template: '{{ ((float(19.1) + float(23.15) + float(17.51) + float(22.33))/ 4) | round(2) }}'
   unit_of_measurement: °C
 
 inne_etg2_number_of_lights_on:
@@ -8,3 +8,63 @@ inne_etg2_number_of_lights_on:
   value_template: >-
     {% set total = 2 %}
     {{total}}
+
+inne_etg2_loftstue_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+
+inne_etg2_loftstue_gulvvarme:
+  friendly_name: 'Gulvvarme'
+  value_template: 'on'
+
+inne_etg2_loftstue_temperature:
+  friendly_name: 'Temperatur'
+  value_template: '{{ ((float(19.1))/ 1) | round(2) }}'
+  unit_of_measurement: °C
+
+inne_etg2_bad_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+
+inne_etg2_bad_gulvvarme:
+  friendly_name: 'Gulvvarme'
+  value_template: 'on'
+
+inne_etg2_bad_temperature:
+  friendly_name: 'Temperatur'
+  value_template: '{{ ((float(23.15))/ 1) | round(2) }}'
+  unit_of_measurement: °C
+
+inne_etg2_kontor1_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+
+inne_etg2_kontor1_gulvvarme:
+  friendly_name: 'Gulvvarme'
+  value_template: 'off'
+
+inne_etg2_kontor1_temperature:
+  friendly_name: 'Temperatur'
+  value_template: '{{ ((float(17.51))/ 1) | round(2) }}'
+  unit_of_measurement: °C
+
+inne_etg2_kontor2_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+
+inne_etg2_kontor2_gulvvarme:
+  friendly_name: 'Gulvvarme'
+  value_template: 'on'
+
+inne_etg2_kontor2_temperature:
+  friendly_name: 'Temperatur'
+  value_template: '{{ ((float(22.33))/ 1) | round(2) }}'
+  unit_of_measurement: °C
+
+inne_etg2_soverom_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+
+inne_etg2_wic_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
