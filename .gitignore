@@ -1,3 +1,14 @@
 .idea
+
+#Files
 home-assistant_v2.db
 home-assistant.log
+auth
+auth_provider.homeassistant
+cloud
+core.area_registry
+core.config_entries
+core.entity_registry
+core.restore_state
+onboarding
+person
