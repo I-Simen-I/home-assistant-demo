@@ -103,7 +103,7 @@
                         },
                         {
                             "entity_sun": "sensor.sun_state",
-                            "entity_weather": "weather.hjem",
+                            "entity_weather": "weather.met_no",
                             "type": "custom:weather-card"
                         },
                         {
