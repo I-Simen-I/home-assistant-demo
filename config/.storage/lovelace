@@ -1,0 +1,453 @@
+{
+    "data": {
+        "config": {
+            "resources": [
+                {
+                    "type": "js",
+                    "url": "/local/custom_ui/weather-card.js"
+                }
+            ],
+            "title": "Hjem",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.ute_number_of_lights_on"
+                                },
+                                {
+                                    "entity": "sensor.ute_average_temperature"
+                                },
+                                {
+                                    "entity": "sensor.ute_garasjedoor"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Status ute",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_number_of_lights_on"
+                                },
+                                {
+                                    "entity": "sensor.inne_average_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_tekniskrom_stromforbruk"
+                                },
+                                {
+                                    "entity": "sensor.inne_inngangsdoor"
+                                },
+                                {
+                                    "entity": "sensor.inne_vaskeromsdoor"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Status hus",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home-group",
+                    "path": "status",
+                    "title": "status"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_inngangsdoor"
+                                },
+                                {
+                                    "entity": "sensor.inne_vaskeromsdoor"
+                                },
+                                {
+                                    "entity": "sensor.ute_garasjedoor"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "D\u00f8rer",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Alarm",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:shield-home",
+                    "path": "sikkerhet",
+                    "title": "Sikkerhet"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.ute_average_temperature"
+                                },
+                                {
+                                    "entity": "sensor.ute_number_of_lights_on"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Status",
+                            "type": "entities"
+                        },
+                        {
+                            "entity_sun": "sensor.sun_state",
+                            "entity_weather": "weather.hjem",
+                            "type": "custom:weather-card"
+                        },
+                        {
+                            "aspect_ratio": "75%",
+                            "type": "iframe",
+                            "url": "https://embed.windy.com/embed2.html"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.ute_terrasse_temperature"
+                                },
+                                {
+                                    "entity": "sensor.ute_terrasse_light"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Terrasse",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.ute_garasje_light"
+                                },
+                                {
+                                    "entity": "sensor.ute_garasjedoor"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Garasje",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:tree",
+                    "path": "status_ute",
+                    "title": "Status ute"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_average_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_number_of_lights_on"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Status",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_average_etg0_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_number_of_lights_on"
+                                }
+                            ],
+                            "title": "Etg -1",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_average_etg1_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_number_of_lights_on"
+                                }
+                            ],
+                            "title": "Etg 1",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_average_etg2_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg2_number_of_lights_on"
+                                }
+                            ],
+                            "title": "Etg 2",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home",
+                    "path": "status_inne",
+                    "title": "Status inne"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_average_etg0_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_number_of_lights_on"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Status",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg0_gang_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_gang_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_gang_gulvvarme"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Gang",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg0_vaskerom_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_vaskerom_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_vaskerom_gulvvarme"
+                                },
+                                {
+                                    "entity": "sensor.inne_vaskeromsdoor"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_vaskerom_vaskemaskin"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_vaskerom_torketrommel"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Vaskerom",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg0_tekniskrom_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_tekniskrom_stromforbruk"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Teknisk rom/Bod",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg0_treningsrom_light"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Treningsrom",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg0_soversom1_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_soverom1_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_soverom1_gulvvarme"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Soverom 1",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg0_soverom2_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_soverom2_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_soverom2_gulvvarme"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Soverom 2",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg0_bad_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_bad_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg0_bad_gulvvarme"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Bad",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home-floor-negative-1",
+                    "path": "etg-0",
+                    "title": "ETG 0"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_average_etg1_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_number_of_lights_on"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Status",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Gang",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Garderobe",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Stue",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Kj\u00f8kken",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "title": "TV-rom",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Bad",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home-floor-1",
+                    "path": "etg-1",
+                    "title": "ETG 1"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_average_etg2_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg2_number_of_lights_on"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Status",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Loftstue",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Bad",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Kontor: Nora",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Kontor: Simen",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Soverom",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [],
+                            "show_header_toggle": false,
+                            "title": "Walk in clocet",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home-floor-2",
+                    "path": "etg-2",
+                    "title": "ETG 2"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

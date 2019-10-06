@@ -1,0 +1,106 @@
+switch.scene_stua_dag:
+  icon: mdi:home
+  friendly_name: Dag
+
+switch.scene_stua_kveld:
+  icon: mdi:weather-night
+  friendly_name: Kveld
+
+switch.scene_stua_film:
+  icon: mdi:popcorn
+  friendly_name: Film
+
+switch.scene_stua_alt_av:
+  icon: mdi:power
+  friendly_name: Alt av
+
+switch.scene_soverommet_100:
+  icon: mdi:lightbulb-on-outline
+  friendly_name: 100% Styrke
+
+switch.scene_soverommet_60:
+  icon: mdi:lightbulb-outline
+  friendly_name: 60% styrke
+
+switch.scene_soverommet_30:
+  icon: mdi:weather-night
+  friendly_name: 30% Styrke
+
+switch.scene_soverommet_av:
+  icon: mdi:power
+  friendly_name: Av
+
+
+#DEMO
+sensor.ute_terrasse_light:
+  icon: mdi:coach-lamp
+
+sensor.ute_number_of_lights_on:
+  icon: mdi:lightbulb-on-outline
+
+sensor.ute_garasjedoor:
+  icon: mdi:garage-open
+sensor.inne_inngangsdoor:
+  icon: mdi:door-closed
+
+sensor.inne_vaskeromsdoor:
+  icon: mdi:door-closed-lock
+
+sensor.ute_garasje_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_number_of_lights_on:
+  icon: mdi:lightbulb-on-outline
+
+sensor.inne_etg0_number_of_lights_on:
+  icon: mdi:lightbulb-on-outline
+
+sensor.inne_etg1_number_of_lights_on:
+  icon: mdi:lightbulb-on-outline
+
+sensor.inne_etg2_number_of_lights_on:
+  icon: mdi:lightbulb-on-outline
+
+sensor.inne_etg0_vaskerom_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_vaskerom_vaskemaskin:
+  icon: mdi:washing-machine
+sensor.inne_etg0_vaskerom_torketrommel:
+  icon: mdi:tumble-dryer
+
+sensor.inne_etg0_gang_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_soversom1_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_soverom2_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_bad_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_tekniskrom_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_tekniskrom_stromforbruk:
+  icon: mdi:flash
+
+sensor.inne_etg0_treningsrom_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_vaskerom_gulvvarme:
+  icon: mdi:radiator
+
+sensor.inne_etg0_gang_gulvvarme:
+  icon: mdi:radiator
+
+sensor.inne_etg0_soverom1_gulvvarme:
+  icon: mdi:radiator-off
+
+sensor.inne_etg0_soverom2_gulvvarme:
+  icon: mdi:radiator-off
+
+sensor.inne_etg0_bad_gulvvarme:
+  icon: mdi:radiator-off
