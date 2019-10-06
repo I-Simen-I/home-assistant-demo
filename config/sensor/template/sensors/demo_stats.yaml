@@ -6,5 +6,5 @@ inne_average_temperature:
 inne_number_of_lights_on:
   friendly_name: 'Antall rom med lys på'
   value_template: >-
-    {% set total = 5 %}
+    {% set total = 6 %}
     {{total}}

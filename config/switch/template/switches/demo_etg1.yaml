@@ -1,0 +1,39 @@
+scene_etg1_stua_dag:
+  value_template: 'off'
+  turn_on:
+  turn_off:
+
+scene_etg1_stua_kveld:
+  value_template: 'off'
+  turn_on:
+  turn_off:
+
+scene_etg1_stua_selskap:
+  value_template: 'on'
+  turn_on:
+  turn_off:
+
+scene_etg1_stua_alt_av:
+  value_template: 'off'
+  turn_on:
+  turn_off:
+
+scene_etg1_tv_dag:
+  value_template: 'off'
+  turn_on:
+  turn_off:
+
+scene_etg1_tv_kveld:
+  value_template: 'off'
+  turn_on:
+  turn_off:
+
+scene_etg1_tv_film:
+  value_template: 'on'
+  turn_on:
+  turn_off:
+
+scene_etg1_tv_alt_av:
+  value_template: 'off'
+  turn_on:
+  turn_off:

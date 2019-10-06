@@ -384,26 +384,31 @@
                             "type": "entities"
                         },
                         {
-                            "entities": [
+                            "cards": [
                                 {
-                                    "entity": "sensor.inne_etg1_stue_spisestue_light"
+                                    "entities": [
+                                        "switch.scene_etg1_stua_dag",
+                                        "switch.scene_etg1_stua_kveld",
+                                        "switch.scene_etg1_stua_selskap",
+                                        "switch.scene_etg1_stua_alt_av"
+                                    ],
+                                    "image": "/local/banner.png",
+                                    "title": "Stue",
+                                    "type": "picture-glance"
                                 },
                                 {
-                                    "entity": "sensor.inne_etg1_stue_sofa_light"
-                                },
-                                {
-                                    "entity": "sensor.inne_etg1_stue_temperature"
-                                },
-                                {
-                                    "entity": "sensor.inne_etg1_stue_gulvvarme"
-                                },
-                                {
-                                    "entity": "sensor.inne_etg1_stue_rullgardiner"
+                                    "entities": [
+                                        "sensor.inne_etg1_stue_spisestue_light",
+                                        "sensor.inne_etg1_stue_sofa_light",
+                                        "sensor.inne_etg1_stue_temperature",
+                                        "sensor.inne_etg1_stue_gulvvarme",
+                                        "sensor.inne_etg1_stue_gulvvarme",
+                                        "sensor.inne_etg1_stue_rullgardiner"
+                                    ],
+                                    "type": "entities"
                                 }
                             ],
-                            "show_header_toggle": false,
-                            "title": "Stue",
-                            "type": "entities"
+                            "type": "vertical-stack"
                         },
                         {
                             "entities": [
@@ -422,23 +427,29 @@
                             "type": "entities"
                         },
                         {
-                            "entities": [
+                            "cards": [
                                 {
-                                    "entity": "sensor.inne_etg1_tv_light"
+                                    "entities": [
+                                        "switch.scene_etg1_tv_dag",
+                                        "switch.scene_etg1_tv_kveld",
+                                        "switch.scene_etg1_tv_film",
+                                        "switch.scene_etg1_tv_alt_av"
+                                    ],
+                                    "image": "/local/banner.png",
+                                    "title": "TV-rom",
+                                    "type": "picture-glance"
                                 },
                                 {
-                                    "entity": "sensor.inne_etg1_tv_temperature"
-                                },
-                                {
-                                    "entity": "sensor.inne_etg1_tv_gulvvarme"
-                                },
-                                {
-                                    "entity": "sensor.inne_etg1_tv_rullgardiner"
+                                    "entities": [
+                                        "sensor.inne_etg1_tv_light",
+                                        "sensor.inne_etg1_tv_temperature",
+                                        "sensor.inne_etg1_tv_gulvvarme",
+                                        "sensor.inne_etg1_tv_rullgardiner"
+                                    ],
+                                    "type": "entities"
                                 }
                             ],
-                            "show_header_toggle": false,
-                            "title": "TV-rom",
-                            "type": "entities"
+                            "type": "vertical-stack"
                         },
                         {
                             "entities": [

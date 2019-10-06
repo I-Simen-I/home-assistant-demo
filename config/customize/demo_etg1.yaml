@@ -28,6 +28,18 @@ sensor.inne_etg1_stue_gulvvarme:
 sensor.inne_etg1_stue_rullgardiner:
   icon: mdi:blinds-open
 
+switch.scene_etg1_stua_dag:
+  icon: mdi:home
+
+switch.scene_etg1_stua_kveld:
+  icon: mdi:weather-night
+
+switch.scene_etg1_stua_selskap:
+  icon: mdi:glass-wine
+
+switch.scene_etg1_stua_alt_av:
+  icon: mdi:power
+
 sensor.inne_etg1_kjokken_light:
   icon: mdi:ceiling-light
 
@@ -42,6 +54,18 @@ sensor.inne_etg1_tv_gulvvarme:
 
 sensor.inne_etg1_tv_rullgardiner:
   icon: mdi:blinds
+
+switch.scene_etg1_tv_dag:
+  icon: mdi:home
+
+switch.scene_etg1_tv_kveld:
+  icon: mdi:weather-night
+
+switch.scene_etg1_tv_film:
+  icon: mdi:popcorn
+
+switch.scene_etg1_tv_alt_av:
+  icon: mdi:power
 
 sensor.inne_etg1_bad_light:
   icon: mdi:ceiling-light

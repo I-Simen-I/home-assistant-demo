@@ -6,7 +6,7 @@ inne_etg1_average_temperature:
 inne_etg1_number_of_lights_on:
   friendly_name: 'Antall rom med lys på'
   value_template: >-
-    {% set total = 3 %}
+    {% set total = 4 %}
     {{total}}
 
 inne_etg1_inngangsdoor:
@@ -70,7 +70,7 @@ inne_etg1_kjokken_temperature:
 
 inne_etg1_tv_light:
   friendly_name: 'Lys'
-  value_template: 'off'
+  value_template: 'on'
 
 inne_etg1_tv_gulvvarme:
   friendly_name: 'Gulvvarme'
