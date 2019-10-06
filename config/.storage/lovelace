@@ -402,7 +402,6 @@
                                         "sensor.inne_etg1_stue_sofa_light",
                                         "sensor.inne_etg1_stue_temperature",
                                         "sensor.inne_etg1_stue_gulvvarme",
-                                        "sensor.inne_etg1_stue_gulvvarme",
                                         "sensor.inne_etg1_stue_rullgardiner"
                                     ],
                                     "type": "entities"
@@ -569,7 +568,7 @@
                                 }
                             ],
                             "show_header_toggle": false,
-                            "title": "Walk in clocet",
+                            "title": "Walk in closet",
                             "type": "entities"
                         }
                     ],
