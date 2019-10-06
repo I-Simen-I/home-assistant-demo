@@ -1,4 +1,4 @@
-inne_average_etg0_temperature:
+inne_etg0_average_temperature:
   friendly_name: 'Gjennomsnittstemperatur'
   value_template: '{{ ((float(23.1) + float(20.05) + float(14.20) + float(14.05) + float(12.79)) / 5) | round(2) }}'
   unit_of_measurement: °C
@@ -9,7 +9,7 @@ inne_etg0_number_of_lights_on:
     {% set total = 0 %}
     {{total}}
 
-inne_vaskeromsdoor:
+inne_etg0_vaskeromsdoor:
   friendly_name: 'Vaskeromsdør'
   value_template: 'Låst'
 

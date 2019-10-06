@@ -1,5 +1,44 @@
-sensor.inne_inngangsdoor:
+sensor.inne_etg1_inngangsdoor:
   icon: mdi:door-closed
 
 sensor.inne_etg1_number_of_lights_on:
   icon: mdi:lightbulb-on-outline
+
+sensor.inne_etg1_gang_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg1_gang_gulvvarme:
+  icon: mdi:radiator
+
+sensor.inne_etg1_garderobe_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg1_garderobe_bevegelse:
+  icon: mdi:motion-sensor
+
+sensor.inne_etg1_stue_spisestue_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg1_stue_sofa_light:
+  icon: mdi:floor-lamp
+
+sensor.inne_etg1_stue_gulvvarme:
+  icon: mdi:radiator
+
+sensor.inne_etg1_kjokken_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg1_kjokken_gulvvarme:
+  icon: mdi:radiator
+
+sensor.inne_etg1_tv_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg1_tv_gulvvarme:
+  icon: mdi:radiator
+
+sensor.inne_etg1_bad_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg1_bad_gulvvarme:
+  icon: mdi:radiator

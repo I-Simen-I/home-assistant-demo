@@ -1,6 +1,6 @@
-inne_average_etg1_temperature:
+inne_etg1_average_temperature:
   friendly_name: 'Gjennomsnittstemperatur'
-  value_template: '{{ ((float(20.6))/ 1) | round(2) }}'
+  value_template: '{{ ((float(18.1) + float(22.12) + float(21.13) + float(20.31) + float(22.71)) / 5) | round(2) }}'
   unit_of_measurement: °C
 
 inne_etg1_number_of_lights_on:
@@ -9,10 +9,83 @@ inne_etg1_number_of_lights_on:
     {% set total = 4 %}
     {{total}}
 
-inne_inngangsdoor:
+inne_etg1_inngangsdoor:
   friendly_name: 'Inngangsdør'
   value_template: 'Åpen'
 
 inne_etg1_gang_light:
   friendly_name: 'Lys'
   value_template: 'on'
+
+inne_etg1_gang_gulvvarme:
+  friendly_name: 'Gulvvarme'
+  value_template: 'on'
+
+inne_etg1_gang_temperature:
+  friendly_name: 'Temperatur'
+  value_template: '{{ ((float(18.1))/ 1) | round(2) }}'
+  unit_of_measurement: °C
+
+inne_etg1_garderobe_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+
+inne_etg1_garderobe_bevegelse:
+  friendly_name: 'Sensor'
+  value_template: 'Ingen bevegelse registrert'
+
+inne_etg1_stue_spisestue_light:
+  friendly_name: 'Lys spisestue'
+  value_template: 'on'
+
+inne_etg1_stue_sofa_light:
+  friendly_name: 'Lys sofakrok'
+  value_template: 'on'
+
+inne_etg1_stue_gulvvarme:
+  friendly_name: 'Gulvvarme'
+  value_template: 'on'
+
+inne_etg1_stue_temperature:
+  friendly_name: 'Temperatur'
+  value_template: '{{ ((float(22.12))/ 1) | round(2) }}'
+  unit_of_measurement: °C
+
+inne_etg1_kjokken_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+
+inne_etg1_kjokken_gulvvarme:
+  friendly_name: 'Gulvvarme'
+  value_template: 'on'
+
+inne_etg1_kjokken_temperature:
+  friendly_name: 'Temperatur'
+  value_template: '{{ ((float(21.13))/ 1) | round(2) }}'
+  unit_of_measurement: °C
+
+inne_etg1_tv_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+
+inne_etg1_tv_gulvvarme:
+  friendly_name: 'Gulvvarme'
+  value_template: 'on'
+
+inne_etg1_tv_temperature:
+  friendly_name: 'Temperatur'
+  value_template: '{{ ((float(20.31))/ 1) | round(2) }}'
+  unit_of_measurement: °C
+
+inne_etg1_bad_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+
+inne_etg1_bad_gulvvarme:
+  friendly_name: 'Gulvvarme'
+  value_template: 'on'
+
+inne_etg1_bad_temperature:
+  friendly_name: 'Temperatur'
+  value_template: '{{ ((float(22.71))/ 1) | round(2) }}'
+  unit_of_measurement: °C

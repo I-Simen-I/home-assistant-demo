@@ -1,4 +1,4 @@
-inne_average_etg2_temperature:
+inne_etg2_average_temperature:
   friendly_name: 'Gjennomsnittstemperatur'
   value_template: '{{ ((float(21.4))/ 1) | round(2) }}'
   unit_of_measurement: °C

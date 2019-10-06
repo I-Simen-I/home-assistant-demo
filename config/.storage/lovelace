@@ -40,10 +40,10 @@
                                     "entity": "sensor.inne_etg0_tekniskrom_stromforbruk"
                                 },
                                 {
-                                    "entity": "sensor.inne_inngangsdoor"
+                                    "entity": "sensor.inne_etg1_inngangsdoor"
                                 },
                                 {
-                                    "entity": "sensor.inne_vaskeromsdoor"
+                                    "entity": "sensor.inne_etg0_vaskeromsdoor"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -61,10 +61,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_inngangsdoor"
+                                    "entity": "sensor.inne_etg1_inngangsdoor"
                                 },
                                 {
-                                    "entity": "sensor.inne_vaskeromsdoor"
+                                    "entity": "sensor.inne_etg0_vaskeromsdoor"
                                 },
                                 {
                                     "entity": "sensor.ute_garasjedoor"
@@ -161,7 +161,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_average_etg0_temperature"
+                                    "entity": "sensor.inne_etg0_average_temperature"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_number_of_lights_on"
@@ -173,7 +173,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_average_etg1_temperature"
+                                    "entity": "sensor.inne_etg1_average_temperature"
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_number_of_lights_on"
@@ -185,7 +185,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_average_etg2_temperature"
+                                    "entity": "sensor.inne_etg2_average_temperature"
                                 },
                                 {
                                     "entity": "sensor.inne_etg2_number_of_lights_on"
@@ -205,7 +205,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_average_etg0_temperature"
+                                    "entity": "sensor.inne_etg0_average_temperature"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_number_of_lights_on"
@@ -243,7 +243,7 @@
                                     "entity": "sensor.inne_etg0_vaskerom_gulvvarme"
                                 },
                                 {
-                                    "entity": "sensor.inne_vaskeromsdoor"
+                                    "entity": "sensor.inne_etg0_vaskeromsdoor"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_vaskerom_vaskemaskin"
@@ -338,7 +338,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_average_etg1_temperature"
+                                    "entity": "sensor.inne_etg1_average_temperature"
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_number_of_lights_on"
@@ -351,7 +351,16 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_inngangsdoor"
+                                    "entity": "sensor.inne_etg1_inngangsdoor"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_gang_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_gang_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_gang_gulvvarme"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -359,30 +368,81 @@
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg1_garderobe_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_garderobe_bevegelse"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Garderobe",
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg1_stue_spisestue_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_stue_sofa_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_stue_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_stue_gulvvarme"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Stue",
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg1_kjokken_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_kjokken_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_kjokken_gulvvarme"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Kj\u00f8kken",
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg1_tv_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_tv_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_tv_gulvvarme"
+                                }
+                            ],
+                            "show_header_toggle": false,
                             "title": "TV-rom",
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_etg1_bad_light"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_bad_temperature"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_bad_gulvvarme"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Bad",
                             "type": "entities"
@@ -398,7 +458,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_average_etg2_temperature"
+                                    "entity": "sensor.inne_etg2_average_temperature"
                                 },
                                 {
                                     "entity": "sensor.inne_etg2_number_of_lights_on"
