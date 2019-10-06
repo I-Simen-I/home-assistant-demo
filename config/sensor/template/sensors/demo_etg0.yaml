@@ -1,72 +1,6 @@
-# Gjennomsnittstemperatur
-ute_average_temperature:
-  friendly_name: 'Gjennomsnittstemperatur i rom'
-  value_template: '{{ ((float(4.6))/ 1) | round(2) }}'
-  unit_of_measurement: °C
-
-inne_average_temperature:
-  friendly_name: 'Gjennomsnittstemperatur'
-  value_template: '{{ ((float(17.3) + float(20.6) + float(21.4)) / 3) | round(2) }}'
-  unit_of_measurement: °C
-
-# Lysstatus
-ute_number_of_lights_on:
-  friendly_name: 'Antall områder med lys på'
-  value_template: >-
-    {% set total = 0 %}
-    {% if is_state('sensor.ute_terrasse_light', 'on') %}
-      {% set total = total + 1 %}
-    {% endif %}
-    {% if is_state('sensor.ute_garasje_light', 'on') %}
-      {% set total = total + 1 %}
-    {% endif %}
-    {{total}}
-
-inne_number_of_lights_on:
-  friendly_name: 'Antall rom med lys på'
-  value_template: >-
-    {% set total = 6 %}
-    {{total}}
-
-#DEMO
-ute_terrasse_light:
-  friendly_name: 'Lys'
-  value_template: 'on'
-
-ute_terrasse_temperature:
-  friendly_name: 'Temperatur'
-  value_template: '{{ ((float(4.6))/ 1) | round(2) }}'
-  unit_of_measurement: °C
-
-ute_garasje_light:
-  friendly_name: 'Lys'
-  value_template: 'on'
-
-ute_garasjedoor:
-  friendly_name: 'Garasjedør'
-  value_template: 'Åpen'
-
-inne_inngangsdoor:
-  friendly_name: 'Inngangsdør'
-  value_template: 'Åpen'
-
-inne_vaskeromsdoor:
-  friendly_name: 'Vaskeromsdør'
-  value_template: 'Låst'
-
 inne_average_etg0_temperature:
   friendly_name: 'Gjennomsnittstemperatur'
   value_template: '{{ ((float(23.1) + float(20.05) + float(14.20) + float(14.05) + float(12.79)) / 5) | round(2) }}'
-  unit_of_measurement: °C
-
-inne_average_etg1_temperature:
-  friendly_name: 'Gjennomsnittstemperatur'
-  value_template: '{{ ((float(20.6))/ 1) | round(2) }}'
-  unit_of_measurement: °C
-
-inne_average_etg2_temperature:
-  friendly_name: 'Gjennomsnittstemperatur'
-  value_template: '{{ ((float(21.4))/ 1) | round(2) }}'
   unit_of_measurement: °C
 
 inne_etg0_number_of_lights_on:
@@ -75,17 +9,9 @@ inne_etg0_number_of_lights_on:
     {% set total = 0 %}
     {{total}}
 
-inne_etg1_number_of_lights_on:
-  friendly_name: 'Antall rom med lys på'
-  value_template: >-
-    {% set total = 4 %}
-    {{total}}
-
-inne_etg2_number_of_lights_on:
-  friendly_name: 'Antall rom med lys på'
-  value_template: >-
-    {% set total = 2 %}
-    {{total}}
+inne_vaskeromsdoor:
+  friendly_name: 'Vaskeromsdør'
+  value_template: 'Låst'
 
 inne_etg0_vaskerom_temperature:
   friendly_name: 'Temperatur'

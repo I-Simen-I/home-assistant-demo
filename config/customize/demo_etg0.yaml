@@ -1,0 +1,50 @@
+sensor.inne_vaskeromsdoor:
+  icon: mdi:door-closed-lock
+
+sensor.inne_etg0_number_of_lights_on:
+  icon: mdi:lightbulb-on-outline
+
+sensor.inne_etg0_vaskerom_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_vaskerom_vaskemaskin:
+  icon: mdi:washing-machine
+
+sensor.inne_etg0_vaskerom_torketrommel:
+  icon: mdi:tumble-dryer
+
+sensor.inne_etg0_gang_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_soversom1_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_soverom2_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_bad_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_tekniskrom_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_tekniskrom_stromforbruk:
+  icon: mdi:flash
+
+sensor.inne_etg0_treningsrom_light:
+  icon: mdi:ceiling-light
+
+sensor.inne_etg0_vaskerom_gulvvarme:
+  icon: mdi:radiator
+
+sensor.inne_etg0_gang_gulvvarme:
+  icon: mdi:radiator
+
+sensor.inne_etg0_soverom1_gulvvarme:
+  icon: mdi:radiator-off
+
+sensor.inne_etg0_soverom2_gulvvarme:
+  icon: mdi:radiator-off
+
+sensor.inne_etg0_bad_gulvvarme:
+  icon: mdi:radiator-off

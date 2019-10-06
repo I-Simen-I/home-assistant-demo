@@ -1,0 +1,18 @@
+inne_average_etg1_temperature:
+  friendly_name: 'Gjennomsnittstemperatur'
+  value_template: '{{ ((float(20.6))/ 1) | round(2) }}'
+  unit_of_measurement: °C
+
+inne_etg1_number_of_lights_on:
+  friendly_name: 'Antall rom med lys på'
+  value_template: >-
+    {% set total = 4 %}
+    {{total}}
+
+inne_inngangsdoor:
+  friendly_name: 'Inngangsdør'
+  value_template: 'Åpen'
+
+inne_etg1_gang_light:
+  friendly_name: 'Lys'
+  value_template: 'on'

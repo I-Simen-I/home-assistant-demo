@@ -1,0 +1,11 @@
+sensor.ute_terrasse_light:
+  icon: mdi:coach-lamp
+
+sensor.ute_number_of_lights_on:
+  icon: mdi:lightbulb-on-outline
+
+sensor.ute_garasjedoor:
+  icon: mdi:garage-open
+
+sensor.ute_garasje_light:
+  icon: mdi:ceiling-light

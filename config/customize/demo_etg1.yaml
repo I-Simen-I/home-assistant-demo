@@ -1,0 +1,5 @@
+sensor.inne_inngangsdoor:
+  icon: mdi:door-closed
+
+sensor.inne_etg1_number_of_lights_on:
+  icon: mdi:lightbulb-on-outline

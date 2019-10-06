@@ -1,0 +1,10 @@
+inne_average_temperature:
+  friendly_name: 'Gjennomsnittstemperatur'
+  value_template: '{{ ((float(17.3) + float(20.6) + float(21.4)) / 3) | round(2) }}'
+  unit_of_measurement: °C
+
+inne_number_of_lights_on:
+  friendly_name: 'Antall rom med lys på'
+  value_template: >-
+    {% set total = 6 %}
+    {{total}}

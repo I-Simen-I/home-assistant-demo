@@ -167,7 +167,7 @@
                                     "entity": "sensor.inne_etg0_number_of_lights_on"
                                 }
                             ],
-                            "title": "Etg -1",
+                            "title": "Etg 0",
                             "type": "entities"
                         },
                         {
@@ -328,7 +328,7 @@
                             "type": "entities"
                         }
                     ],
-                    "icon": "mdi:home-floor-negative-1",
+                    "icon": "mdi:home-floor-0",
                     "path": "etg-0",
                     "title": "ETG 0"
                 },
@@ -349,7 +349,11 @@
                             "type": "entities"
                         },
                         {
-                            "entities": [],
+                            "entities": [
+                                {
+                                    "entity": "sensor.inne_inngangsdoor"
+                                }
+                            ],
                             "show_header_toggle": false,
                             "title": "Gang",
                             "type": "entities"
@@ -419,13 +423,13 @@
                         {
                             "entities": [],
                             "show_header_toggle": false,
-                            "title": "Kontor: Nora",
+                            "title": "Kontor 1",
                             "type": "entities"
                         },
                         {
                             "entities": [],
                             "show_header_toggle": false,
-                            "title": "Kontor: Simen",
+                            "title": "Kontor 2",
                             "type": "entities"
                         },
                         {
