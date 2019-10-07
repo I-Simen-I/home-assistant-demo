@@ -357,7 +357,7 @@
                                     "entity": "sensor.inne_etg1_inngangsdoor"
                                 },
                                 {
-                                    "entity": "sensor.inne_etg1_gang_light"
+                                    "entity": "switch.inne_etg1_gang_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_gang_temperature"
@@ -373,7 +373,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg1_garderobe_light"
+                                    "entity": "switch.inne_etg1_garderobe_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_garderobe_bevegelse"
@@ -398,8 +398,8 @@
                                 },
                                 {
                                     "entities": [
-                                        "sensor.inne_etg1_stue_spisestue_light",
-                                        "sensor.inne_etg1_stue_sofa_light",
+                                        "switch.inne_etg1_stue_spisestue_light",
+                                        "switch.inne_etg1_stue_sofa_light",
                                         "sensor.inne_etg1_stue_temperature",
                                         "sensor.inne_etg1_stue_gulvvarme",
                                         "sensor.inne_etg1_stue_rullgardiner"
@@ -412,7 +412,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg1_kjokken_light"
+                                    "entity": "switch.inne_etg1_kjokken_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_kjokken_temperature"
@@ -440,7 +440,7 @@
                                 },
                                 {
                                     "entities": [
-                                        "sensor.inne_etg1_tv_light",
+                                        "switch.inne_etg1_tv_light",
                                         "sensor.inne_etg1_tv_temperature",
                                         "sensor.inne_etg1_tv_gulvvarme",
                                         "sensor.inne_etg1_tv_rullgardiner"
@@ -453,7 +453,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg1_bad_light"
+                                    "entity": "switch.inne_etg1_bad_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_bad_temperature"

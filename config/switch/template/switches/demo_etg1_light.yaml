@@ -1,0 +1,40 @@
+inne_etg1_gang_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+  turn_on:
+  turn_off:
+
+inne_etg1_garderobe_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+  turn_on:
+  turn_off:
+
+inne_etg1_stue_spisestue_light:
+  friendly_name: 'Lys spisestue'
+  value_template: 'on'
+  turn_on:
+  turn_off:
+
+inne_etg1_stue_sofa_light:
+  friendly_name: 'Lys sofakrok'
+  value_template: 'on'
+  turn_on:
+  turn_off:
+
+inne_etg1_kjokken_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+  turn_on:
+  turn_off:
+inne_etg1_tv_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+  turn_on:
+  turn_off:
+
+inne_etg1_bad_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+  turn_on:
+  turn_off:
