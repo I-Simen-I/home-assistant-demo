@@ -18,10 +18,6 @@ inne_etg0_vaskerom_temperature:
   value_template: '{{ ((float(23.1))/ 1) | round(2) }}'
   unit_of_measurement: °C
 
-inne_etg0_vaskerom_light:
-  friendly_name: 'Lys'
-  value_template: 'off'
-
 inne_etg0_vaskerom_vaskemaskin:
   friendly_name: 'Vaskemaskin'
   value_template: 'on'
@@ -34,49 +30,25 @@ inne_etg0_vaskerom_gulvvarme:
   friendly_name: 'Gulvvarme'
   value_template: 'on'
 
-inne_etg0_gang_light:
-  friendly_name: 'Lys'
-  value_template: 'off'
-
 inne_etg0_gang_gulvvarme:
   friendly_name: 'Gulvvarme'
   value_template: 'on'
 
-inne_etg0_soversom1_light:
-  friendly_name: 'Lys'
-  value_template: 'off'
-
 inne_etg0_soverom1_gulvvarme:
   friendly_name: 'Gulvvarme'
-  value_template: 'off'
-
-inne_etg0_soverom2_light:
-  friendly_name: 'Lys'
   value_template: 'off'
 
 inne_etg0_soverom2_gulvvarme:
   friendly_name: 'Gulvvarme'
   value_template: 'off'
 
-inne_etg0_bad_light:
-  friendly_name: 'Lys'
-  value_template: 'off'
-
 inne_etg0_bad_gulvvarme:
   friendly_name: 'Gulvvarme'
-  value_template: 'off'
-
-inne_etg0_tekniskrom_light:
-  friendly_name: 'Lys'
   value_template: 'off'
 
 inne_etg0_tekniskrom_stromforbruk:
   friendly_name: 'Husets strømforbruk'
   value_template: '509w'
-
-inne_etg0_treningsrom_light:
-  friendly_name: 'Lys'
-  value_template: 'off'
 
 inne_etg0_gang_temperature:
   friendly_name: 'Temperatur'

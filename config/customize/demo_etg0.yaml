@@ -4,7 +4,7 @@ sensor.inne_etg0_vaskeromsdoor:
 sensor.inne_etg0_number_of_lights_on:
   icon: mdi:lightbulb-on-outline
 
-sensor.inne_etg0_vaskerom_light:
+switch.inne_etg0_vaskerom_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg0_vaskerom_vaskemaskin:
@@ -13,25 +13,25 @@ sensor.inne_etg0_vaskerom_vaskemaskin:
 sensor.inne_etg0_vaskerom_torketrommel:
   icon: mdi:tumble-dryer
 
-sensor.inne_etg0_gang_light:
+switch.inne_etg0_gang_light:
   icon: mdi:ceiling-light
 
-sensor.inne_etg0_soversom1_light:
+switch.inne_etg0_soverom1_light:
   icon: mdi:ceiling-light
 
-sensor.inne_etg0_soverom2_light:
+switch.inne_etg0_soverom2_light:
   icon: mdi:ceiling-light
 
-sensor.inne_etg0_bad_light:
+switch.inne_etg0_bad_light:
   icon: mdi:ceiling-light
 
-sensor.inne_etg0_tekniskrom_light:
+switch.inne_etg0_tekniskrom_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg0_tekniskrom_stromforbruk:
   icon: mdi:flash
 
-sensor.inne_etg0_treningsrom_light:
+switch.inne_etg0_treningsrom_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg0_vaskerom_gulvvarme:
