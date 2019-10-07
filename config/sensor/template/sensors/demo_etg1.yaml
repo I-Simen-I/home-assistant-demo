@@ -67,7 +67,7 @@ inne_etg1_bad_temperature:
   unit_of_measurement: °C
 
 inne_etg1_robotstovsuger_status:
-  friendly_name: 'Status'
+  friendly_name: 'Xiaomi Mi RoboRock S6'
   value_template: 'Støvsuger'
 
 inne_etg1_robotstovsuger_tid:

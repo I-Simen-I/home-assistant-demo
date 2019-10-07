@@ -178,6 +178,9 @@
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_number_of_lights_on"
+                                },
+                                {
+                                    "entity": "sensor.inne_etg1_robotstovsuger_status"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -475,7 +478,7 @@
                                         "switch.scene_etg1_robotstovsuger_stop"
                                     ],
                                     "image": "https://tek.vgc.no/2456/2456060/xiaomi11.1000x551.jpg",
-                                    "title": "Xiaomi Mi RoboRock S6",
+                                    "title": "St\u00f8vsuger",
                                     "type": "picture-glance"
                                 },
                                 {
