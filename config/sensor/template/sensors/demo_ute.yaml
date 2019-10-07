@@ -7,27 +7,15 @@ ute_number_of_lights_on:
   friendly_name: 'Antall områder med lys på'
   value_template: >-
     {% set total = 0 %}
-    {% if is_state('sensor.ute_terrasse_light', 'on') %}
+    {% if is_state('switch.ute_terrasse_light', 'on') %}
       {% set total = total + 1 %}
     {% endif %}
-    {% if is_state('sensor.ute_garasje_light', 'on') %}
+    {% if is_state('switch.ute_garasje_light', 'on') %}
       {% set total = total + 1 %}
     {% endif %}
     {{total}}
-
-ute_terrasse_light:
-  friendly_name: 'Lys'
-  value_template: 'on'
 
 ute_terrasse_temperature:
   friendly_name: 'Temperatur'
   value_template: '{{ ((float(4.6))/ 1) | round(2) }}'
   unit_of_measurement: °C
-
-ute_garasje_light:
-  friendly_name: 'Lys'
-  value_template: 'on'
-
-ute_garasjedoor:
-  friendly_name: 'Garasjedør'
-  value_template: 'Åpen'

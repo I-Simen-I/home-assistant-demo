@@ -1,0 +1,11 @@
+ute_terrasse_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+  turn_on:
+  turn_off:
+
+ute_garasje_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+  turn_on:
+  turn_off:

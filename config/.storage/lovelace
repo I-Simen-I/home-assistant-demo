@@ -21,7 +21,7 @@
                                     "entity": "sensor.ute_average_temperature"
                                 },
                                 {
-                                    "entity": "sensor.ute_garasjedoor"
+                                    "entity": "switch.ute_garasjedoor"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -40,10 +40,10 @@
                                     "entity": "sensor.inne_etg0_tekniskrom_stromforbruk"
                                 },
                                 {
-                                    "entity": "sensor.inne_etg1_inngangsdoor"
+                                    "entity": "switch.inne_etg1_inngangsdoor"
                                 },
                                 {
-                                    "entity": "sensor.inne_etg0_vaskeromsdoor"
+                                    "entity": "switch.inne_etg0_vaskeromsdoor"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -61,13 +61,13 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg1_inngangsdoor"
+                                    "entity": "switch.inne_etg1_inngangsdoor"
                                 },
                                 {
-                                    "entity": "sensor.inne_etg0_vaskeromsdoor"
+                                    "entity": "switch.inne_etg0_vaskeromsdoor"
                                 },
                                 {
-                                    "entity": "sensor.ute_garasjedoor"
+                                    "entity": "switch.ute_garasjedoor"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -117,7 +117,7 @@
                                     "entity": "sensor.ute_terrasse_temperature"
                                 },
                                 {
-                                    "entity": "sensor.ute_terrasse_light"
+                                    "entity": "switch.ute_terrasse_light"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -127,10 +127,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.ute_garasje_light"
+                                    "entity": "switch.ute_garasje_light"
                                 },
                                 {
-                                    "entity": "sensor.ute_garasjedoor"
+                                    "entity": "switch.ute_garasjedoor"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -246,7 +246,7 @@
                                     "entity": "sensor.inne_etg0_vaskerom_gulvvarme"
                                 },
                                 {
-                                    "entity": "sensor.inne_etg0_vaskeromsdoor"
+                                    "entity": "switch.inne_etg0_vaskeromsdoor"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_vaskerom_vaskemaskin"
@@ -354,7 +354,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg1_inngangsdoor"
+                                    "entity": "switch.inne_etg1_inngangsdoor"
                                 },
                                 {
                                     "entity": "switch.inne_etg1_gang_light"

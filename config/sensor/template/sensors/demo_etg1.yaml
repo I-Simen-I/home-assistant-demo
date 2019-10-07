@@ -9,10 +9,6 @@ inne_etg1_number_of_lights_on:
     {% set total = 4 %}
     {{total}}
 
-inne_etg1_inngangsdoor:
-  friendly_name: 'Inngangsdør'
-  value_template: 'Åpen'
-
 inne_etg1_gang_gulvvarme:
   friendly_name: 'Gulvvarme'
   value_template: 'on'
