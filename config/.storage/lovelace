@@ -490,7 +490,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg2_loftstue_light"
+                                    "entity": "switch.inne_etg2_loftstue_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg2_loftstue_temperature"
@@ -506,7 +506,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg2_bad_light"
+                                    "entity": "switch.inne_etg2_bad_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg2_bad_temperature"
@@ -522,7 +522,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg2_kontor1_light"
+                                    "entity": "switch.inne_etg2_kontor1_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg2_kontor1_temperature"
@@ -538,7 +538,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg2_kontor2_light"
+                                    "entity": "switch.inne_etg2_kontor2_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg2_kontor2_temperature"
@@ -554,7 +554,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg2_soverom_light"
+                                    "entity": "switch.inne_etg2_soverom_light"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -564,7 +564,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.inne_etg2_wic_light"
+                                    "entity": "switch.inne_etg2_wic_light"
                                 }
                             ],
                             "show_header_toggle": false,

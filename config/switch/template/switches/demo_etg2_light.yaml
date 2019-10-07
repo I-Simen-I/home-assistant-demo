@@ -1,0 +1,35 @@
+inne_etg2_loftstue_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+  turn_on:
+  turn_off:
+
+inne_etg2_bad_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+  turn_on:
+  turn_off:
+
+inne_etg2_kontor1_light:
+  friendly_name: 'Lys'
+  value_template: 'on'
+  turn_on:
+  turn_off:
+
+inne_etg2_kontor2_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+  turn_on:
+  turn_off:
+
+inne_etg2_soverom_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+  turn_on:
+  turn_off:
+
+inne_etg2_wic_light:
+  friendly_name: 'Lys'
+  value_template: 'off'
+  turn_on:
+  turn_off:
