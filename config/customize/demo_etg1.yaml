@@ -72,3 +72,21 @@ switch.inne_etg1_bad_light:
 
 sensor.inne_etg1_bad_gulvvarme:
   icon: mdi:radiator
+
+sensor.inne_etg1_robotstovsuger_status:
+  icon: mdi:robot-vacuum
+
+sensor.inne_etg1_robotstovsuger_tid:
+  icon: mdi:calendar-clock
+
+sensor.inne_etg1_robotstovsuger_area:
+  icon: mdi:developer-board
+
+switch.scene_etg1_robotstovsuger_run:
+  icon: mdi:play
+
+switch.scene_etg1_robotstovsuger_pause:
+  icon: mdi:pause
+
+switch.scene_etg1_robotstovsuger_stop:
+  icon: mdi:stop

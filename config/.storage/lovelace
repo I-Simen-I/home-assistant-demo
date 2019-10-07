@@ -465,6 +465,29 @@
                             "show_header_toggle": false,
                             "title": "Bad",
                             "type": "entities"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entities": [
+                                        "switch.scene_etg1_robotstovsuger_run",
+                                        "switch.scene_etg1_robotstovsuger_pause",
+                                        "switch.scene_etg1_robotstovsuger_stop"
+                                    ],
+                                    "image": "https://tek.vgc.no/2456/2456060/xiaomi11.1000x551.jpg",
+                                    "title": "Xiaomi Mi RoboRock S6",
+                                    "type": "picture-glance"
+                                },
+                                {
+                                    "entities": [
+                                        "sensor.inne_etg1_robotstovsuger_status",
+                                        "sensor.inne_etg1_robotstovsuger_tid",
+                                        "sensor.inne_etg1_robotstovsuger_area"
+                                    ],
+                                    "type": "entities"
+                                }
+                            ],
+                            "type": "vertical-stack"
                         }
                     ],
                     "icon": "mdi:home-floor-1",

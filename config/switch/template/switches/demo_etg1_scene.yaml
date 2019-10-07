@@ -37,3 +37,18 @@ scene_etg1_tv_alt_av:
   value_template: 'off'
   turn_on:
   turn_off:
+
+scene_etg1_robotstovsuger_run:
+  value_template: 'on'
+  turn_on:
+  turn_off:
+
+scene_etg1_robotstovsuger_pause:
+  value_template: 'off'
+  turn_on:
+  turn_off:
+
+scene_etg1_robotstovsuger_stop:
+  value_template: 'off'
+  turn_on:
+  turn_off:

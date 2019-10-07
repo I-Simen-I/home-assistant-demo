@@ -65,3 +65,15 @@ inne_etg1_bad_temperature:
   friendly_name: 'Temperatur'
   value_template: '{{ ((float(22.71))/ 1) | round(2) }}'
   unit_of_measurement: °C
+
+inne_etg1_robotstovsuger_status:
+  friendly_name: 'Status'
+  value_template: 'Støvsuger'
+
+inne_etg1_robotstovsuger_tid:
+  friendly_name: 'Støvsugertid'
+  value_template: '1 time og 15 min'
+
+inne_etg1_robotstovsuger_area:
+  friendly_name: 'Område'
+  value_template: '128 m2'
