@@ -1,32 +1,32 @@
 sensor.inne_etg2_number_of_lights_on:
   icon: mdi:lightbulb-on-outline
 
-switch.inne_etg2_loftstue_light:
+light.inne_etg2_loftstue_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg2_loftstue_gulvvarme:
   icon: mdi:radiator
 
-switch.inne_etg2_bad_light:
+light.inne_etg2_bad_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg2_bad_gulvvarme:
   icon: mdi:radiator
 
-switch.inne_etg2_kontor1_light:
+light.inne_etg2_kontor1_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg2_kontor1_gulvvarme:
   icon: mdi:radiator-off
 
-switch.inne_etg2_kontor2_light:
+light.inne_etg2_kontor2_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg2_kontor2_gulvvarme:
   icon: mdi:radiator
 
-switch.inne_etg2_soverom_light:
+light.inne_etg2_soverom_light:
   icon: mdi:ceiling-light
 
-switch.inne_etg2_wic_light:
+light.inne_etg2_wic_light:
   icon: mdi:ceiling-light

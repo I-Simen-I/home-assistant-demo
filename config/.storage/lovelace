@@ -117,7 +117,7 @@
                                     "entity": "sensor.ute_terrasse_temperature"
                                 },
                                 {
-                                    "entity": "switch.ute_terrasse_light"
+                                    "entity": "light.ute_terrasse_light"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -127,7 +127,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.ute_garasje_light"
+                                    "entity": "light.ute_garasje_light"
                                 },
                                 {
                                     "entity": "switch.ute_garasjedoor"
@@ -224,7 +224,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg0_gang_light"
+                                    "entity": "light.inne_etg0_gang_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_gang_temperature"
@@ -240,7 +240,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg0_vaskerom_light"
+                                    "entity": "light.inne_etg0_vaskerom_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_vaskerom_temperature"
@@ -265,7 +265,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg0_tekniskrom_light"
+                                    "entity": "light.inne_etg0_tekniskrom_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_tekniskrom_stromforbruk"
@@ -278,7 +278,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg0_treningsrom_light"
+                                    "entity": "light.inne_etg0_treningsrom_light"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -288,7 +288,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg0_soverom1_light"
+                                    "entity": "light.inne_etg0_soverom1_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_soverom1_temperature"
@@ -304,7 +304,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg0_soverom2_light"
+                                    "entity": "light.inne_etg0_soverom2_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_soverom2_temperature"
@@ -320,7 +320,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg0_bad_light"
+                                    "entity": "light.inne_etg0_bad_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_bad_temperature"
@@ -360,7 +360,7 @@
                                     "entity": "switch.inne_etg1_inngangsdoor"
                                 },
                                 {
-                                    "entity": "switch.inne_etg1_gang_light"
+                                    "entity": "light.inne_etg1_gang_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_gang_temperature"
@@ -376,7 +376,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg1_garderobe_light"
+                                    "entity": "light.inne_etg1_garderobe_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_garderobe_bevegelse"
@@ -401,8 +401,8 @@
                                 },
                                 {
                                     "entities": [
-                                        "switch.inne_etg1_stue_spisestue_light",
-                                        "switch.inne_etg1_stue_sofa_light",
+                                        "light.inne_etg1_stue_spisestue_light",
+                                        "light.inne_etg1_stue_sofa_light",
                                         "sensor.inne_etg1_stue_temperature",
                                         "sensor.inne_etg1_stue_gulvvarme",
                                         "sensor.inne_etg1_stue_rullgardiner"
@@ -415,7 +415,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg1_kjokken_light"
+                                    "entity": "light.inne_etg1_kjokken_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_kjokken_temperature"
@@ -443,7 +443,7 @@
                                 },
                                 {
                                     "entities": [
-                                        "switch.inne_etg1_tv_light",
+                                        "light.inne_etg1_tv_light",
                                         "sensor.inne_etg1_tv_temperature",
                                         "sensor.inne_etg1_tv_gulvvarme",
                                         "sensor.inne_etg1_tv_rullgardiner"
@@ -456,7 +456,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg1_bad_light"
+                                    "entity": "light.inne_etg1_bad_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg1_bad_temperature"
@@ -494,7 +494,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg2_loftstue_light"
+                                    "entity": "light.inne_etg2_loftstue_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg2_loftstue_temperature"
@@ -510,7 +510,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg2_bad_light"
+                                    "entity": "light.inne_etg2_bad_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg2_bad_temperature"
@@ -526,7 +526,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg2_kontor1_light"
+                                    "entity": "light.inne_etg2_kontor1_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg2_kontor1_temperature"
@@ -542,7 +542,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg2_kontor2_light"
+                                    "entity": "light.inne_etg2_kontor2_light"
                                 },
                                 {
                                     "entity": "sensor.inne_etg2_kontor2_temperature"
@@ -558,7 +558,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg2_soverom_light"
+                                    "entity": "light.inne_etg2_soverom_light"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -568,7 +568,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg2_wic_light"
+                                    "entity": "light.inne_etg2_wic_light"
                                 }
                             ],
                             "show_header_toggle": false,

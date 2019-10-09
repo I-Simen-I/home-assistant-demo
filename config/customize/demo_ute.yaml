@@ -1,4 +1,4 @@
-switch.ute_terrasse_light:
+light.ute_terrasse_light:
   icon: mdi:coach-lamp
 
 sensor.ute_number_of_lights_on:
@@ -7,5 +7,5 @@ sensor.ute_number_of_lights_on:
 switch.ute_garasjedoor:
   icon: mdi:garage-open
 
-switch.ute_garasje_light:
+light.ute_garasje_light:
   icon: mdi:ceiling-light

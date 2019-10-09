@@ -4,22 +4,22 @@ switch.inne_etg1_inngangsdoor:
 sensor.inne_etg1_number_of_lights_on:
   icon: mdi:lightbulb-on-outline
 
-switch.inne_etg1_gang_light:
+light.inne_etg1_gang_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg1_gang_gulvvarme:
   icon: mdi:radiator
 
-switch.inne_etg1_garderobe_light:
+light.inne_etg1_garderobe_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg1_garderobe_bevegelse:
   icon: mdi:motion-sensor
 
-switch.inne_etg1_stue_spisestue_light:
+light.inne_etg1_stue_spisestue_light:
   icon: mdi:ceiling-light
 
-switch.inne_etg1_stue_sofa_light:
+light.inne_etg1_stue_sofa_light:
   icon: mdi:floor-lamp
 
 sensor.inne_etg1_stue_gulvvarme:
@@ -40,13 +40,13 @@ switch.scene_etg1_stua_selskap:
 switch.scene_etg1_stua_alt_av:
   icon: mdi:power
 
-switch.inne_etg1_kjokken_light:
+light.inne_etg1_kjokken_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg1_kjokken_gulvvarme:
   icon: mdi:radiator
 
-switch.inne_etg1_tv_light:
+light.inne_etg1_tv_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg1_tv_gulvvarme:
@@ -67,7 +67,7 @@ switch.scene_etg1_tv_film:
 switch.scene_etg1_tv_alt_av:
   icon: mdi:power
 
-switch.inne_etg1_bad_light:
+light.inne_etg1_bad_light:
   icon: mdi:ceiling-light
 
 sensor.inne_etg1_bad_gulvvarme:
