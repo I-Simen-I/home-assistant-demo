@@ -468,32 +468,10 @@
                             "show_header_toggle": false,
                             "title": "Bad",
                             "type": "entities"
-                        },
-                        {
-                            "cards": [
-                                {
-                                    "entities": [
-                                        "switch.scene_etg1_robotstovsuger_run",
-                                        "switch.scene_etg1_robotstovsuger_pause",
-                                        "switch.scene_etg1_robotstovsuger_stop"
-                                    ],
-                                    "image": "https://tek.vgc.no/2456/2456060/xiaomi11.1000x551.jpg",
-                                    "title": "St\u00f8vsuger",
-                                    "type": "picture-glance"
-                                },
-                                {
-                                    "entities": [
-                                        "sensor.inne_etg1_robotstovsuger_status",
-                                        "sensor.inne_etg1_robotstovsuger_tid",
-                                        "sensor.inne_etg1_robotstovsuger_area"
-                                    ],
-                                    "type": "entities"
-                                }
-                            ],
-                            "type": "vertical-stack"
                         }
                     ],
                     "icon": "mdi:home-floor-1",
+                    "panel": false,
                     "path": "etg-1",
                     "title": "ETG 1"
                 },
@@ -601,6 +579,46 @@
                     "icon": "mdi:home-floor-2",
                     "path": "etg-2",
                     "title": "ETG 2"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.scene_etg1_stovsuger_lader"
+                            ],
+                            "image": "https://www.elkjop.no/image/dv_web_D18000100242710/EER79SWM/electrolux-ergorapido-traadloes-stoevsuger-eer79swm-hvit.jpg?$fullsize$",
+                            "title": "Electrolux Ergorapido",
+                            "type": "picture-glance"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entities": [
+                                        "switch.scene_etg1_robotstovsuger_run",
+                                        "switch.scene_etg1_robotstovsuger_pause",
+                                        "switch.scene_etg1_robotstovsuger_stop"
+                                    ],
+                                    "image": "https://tek.vgc.no/2456/2456060/xiaomi11.1000x551.jpg",
+                                    "title": "St\u00f8vsuger Etg 1",
+                                    "type": "picture-glance"
+                                },
+                                {
+                                    "entities": [
+                                        "sensor.inne_etg1_robotstovsuger_status",
+                                        "sensor.inne_etg1_robotstovsuger_tid",
+                                        "sensor.inne_etg1_robotstovsuger_area"
+                                    ],
+                                    "type": "entities"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "icon": "mdi:spray-bottle",
+                    "panel": false,
+                    "path": "rengjoring",
+                    "title": "Rengj\u00f8ring"
                 }
             ]
         }

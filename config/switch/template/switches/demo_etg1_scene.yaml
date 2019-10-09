@@ -52,3 +52,8 @@ scene_etg1_robotstovsuger_stop:
   value_template: 'off'
   turn_on:
   turn_off:
+
+scene_etg1_stovsuger_lader:
+  value_template: 'on'
+  turn_on:
+  turn_off:
