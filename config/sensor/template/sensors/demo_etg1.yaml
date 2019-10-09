@@ -31,10 +31,6 @@ inne_etg1_stue_temperature:
   value_template: '{{ ((float(22.12))/ 1) | round(2) }}'
   unit_of_measurement: °C
 
-inne_etg1_stue_rullgardiner:
-  friendly_name: 'Rullgardiner'
-  value_template: '0%'
-
 inne_etg1_kjokken_gulvvarme:
   friendly_name: 'Gulvvarme'
   value_template: 'on'
@@ -52,10 +48,6 @@ inne_etg1_tv_temperature:
   friendly_name: 'Temperatur'
   value_template: '{{ ((float(20.31))/ 1) | round(2) }}'
   unit_of_measurement: °C
-
-inne_etg1_tv_rullgardiner:
-  friendly_name: 'Rullgardiner'
-  value_template: '100%'
 
 inne_etg1_bad_gulvvarme:
   friendly_name: 'Gulvvarme'

@@ -25,7 +25,7 @@ light.inne_etg1_stue_sofa_light:
 sensor.inne_etg1_stue_gulvvarme:
   icon: mdi:radiator
 
-sensor.inne_etg1_stue_rullgardiner:
+cover.inne_etg1_stue_rullgardiner:
   icon: mdi:blinds-open
 
 switch.scene_etg1_stua_dag:
@@ -52,7 +52,7 @@ light.inne_etg1_tv_light:
 sensor.inne_etg1_tv_gulvvarme:
   icon: mdi:radiator
 
-sensor.inne_etg1_tv_rullgardiner:
+cover.inne_etg1_tv_rullgardiner:
   icon: mdi:blinds
 
 switch.scene_etg1_tv_dag:

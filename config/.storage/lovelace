@@ -21,7 +21,7 @@
                                     "entity": "sensor.ute_average_temperature"
                                 },
                                 {
-                                    "entity": "switch.ute_garasjedoor"
+                                    "entity": "cover.ute_garage_door"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -67,7 +67,7 @@
                                     "entity": "lock.vaskeromsdor"
                                 },
                                 {
-                                    "entity": "switch.ute_garasjedoor"
+                                    "entity": "cover.ute_garage_door"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -130,7 +130,7 @@
                                     "entity": "light.ute_garasje_light"
                                 },
                                 {
-                                    "entity": "switch.ute_garasjedoor"
+                                    "entity": "cover.ute_garage_door"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -405,7 +405,7 @@
                                         "light.inne_etg1_stue_sofa_light",
                                         "sensor.inne_etg1_stue_temperature",
                                         "sensor.inne_etg1_stue_gulvvarme",
-                                        "sensor.inne_etg1_stue_rullgardiner"
+                                        "cover.inne_etg1_stue_rullgardiner"
                                     ],
                                     "type": "entities"
                                 }
@@ -446,7 +446,7 @@
                                         "light.inne_etg1_tv_light",
                                         "sensor.inne_etg1_tv_temperature",
                                         "sensor.inne_etg1_tv_gulvvarme",
-                                        "sensor.inne_etg1_tv_rullgardiner"
+                                        "cover.inne_etg1_tv_rullgardiner"
                                     ],
                                     "type": "entities"
                                 }

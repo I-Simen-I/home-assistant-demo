@@ -1,0 +1,6 @@
+ute_garage_door:
+  friendly_name: "Garasjedør"
+  value_template: "open"
+  open_cover:
+  close_cover:
+  stop_cover:

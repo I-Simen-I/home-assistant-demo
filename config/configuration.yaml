@@ -27,5 +27,6 @@ weather:
 
 light: !include_dir_merge_list light/
 lock: !include_dir_merge_list lock/
+cover: !include_dir_merge_list cover/
 sensor: !include_dir_merge_list sensor/
 switch: !include_dir_merge_list switch/

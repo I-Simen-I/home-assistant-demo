@@ -1,5 +1,0 @@
-ute_garasjedoor:
-  friendly_name: 'Garasjedør'
-  value_template: 'off'
-  turn_on:
-  turn_off:

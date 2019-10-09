@@ -1,0 +1,13 @@
+inne_etg1_tv_rullgardiner:
+  friendly_name: 'Rullgardiner'
+  value_template: "closed"
+  open_cover:
+  close_cover:
+  stop_cover:
+
+inne_etg1_stue_rullgardiner:
+  friendly_name: 'Rullgardiner'
+  value_template: "open"
+  open_cover:
+  close_cover:
+  stop_cover:

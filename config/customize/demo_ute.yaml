@@ -4,7 +4,7 @@ light.ute_terrasse_light:
 sensor.ute_number_of_lights_on:
   icon: mdi:lightbulb-on-outline
 
-switch.ute_garasjedoor:
+cover.ute_garage_door:
   icon: mdi:garage-open
 
 light.ute_garasje_light:
