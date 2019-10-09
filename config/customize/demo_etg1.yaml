@@ -1,4 +1,4 @@
-switch.inne_etg1_inngangsdoor:
+lock.inngangsdor:
   icon: mdi:door-closed
 
 sensor.inne_etg1_number_of_lights_on:

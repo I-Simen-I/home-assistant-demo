@@ -1,4 +1,4 @@
-switch.inne_etg0_vaskeromsdoor:
+lock.vaskeromsdor:
   icon: mdi:door-closed-lock
 
 sensor.inne_etg0_number_of_lights_on:

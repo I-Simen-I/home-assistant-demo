@@ -40,10 +40,10 @@
                                     "entity": "sensor.inne_etg0_tekniskrom_stromforbruk"
                                 },
                                 {
-                                    "entity": "switch.inne_etg1_inngangsdoor"
+                                    "entity": "lock.inngangsdor"
                                 },
                                 {
-                                    "entity": "switch.inne_etg0_vaskeromsdoor"
+                                    "entity": "lock.vaskeromsdor"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -61,10 +61,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg1_inngangsdoor"
+                                    "entity": "lock.inngangsdor"
                                 },
                                 {
-                                    "entity": "switch.inne_etg0_vaskeromsdoor"
+                                    "entity": "lock.vaskeromsdor"
                                 },
                                 {
                                     "entity": "switch.ute_garasjedoor"
@@ -249,7 +249,7 @@
                                     "entity": "sensor.inne_etg0_vaskerom_gulvvarme"
                                 },
                                 {
-                                    "entity": "switch.inne_etg0_vaskeromsdoor"
+                                    "entity": "lock.vaskeromsdor"
                                 },
                                 {
                                     "entity": "sensor.inne_etg0_vaskerom_vaskemaskin"
@@ -357,7 +357,7 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "switch.inne_etg1_inngangsdoor"
+                                    "entity": "lock.inngangsdor"
                                 },
                                 {
                                     "entity": "light.inne_etg1_gang_light"

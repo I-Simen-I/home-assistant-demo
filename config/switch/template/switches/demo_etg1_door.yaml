@@ -1,5 +1,0 @@
-inne_etg1_inngangsdoor:
-  friendly_name: 'Inngangsdør'
-  value_template: 'off'
-  turn_on:
-  turn_off:

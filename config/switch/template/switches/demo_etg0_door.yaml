@@ -1,5 +1,0 @@
-inne_etg0_vaskeromsdoor:
-  friendly_name: 'Vaskeromsdør'
-  value_template: 'on'
-  turn_on:
-  turn_off:

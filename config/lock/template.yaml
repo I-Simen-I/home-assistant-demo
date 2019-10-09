@@ -1,0 +1,11 @@
+- platform: template
+  name: "Vaskeromsdør"
+  value_template: "locked"
+  lock:
+  unlock:
+
+- platform: template
+  name: "Inngangsdør"
+  value_template: "unlocked"
+  lock:
+  unlock:
