@@ -584,14 +584,6 @@
                     "badges": [],
                     "cards": [
                         {
-                            "entities": [
-                                "switch.scene_etg1_stovsuger_lader"
-                            ],
-                            "image": "https://www.elkjop.no/image/dv_web_D18000100242710/EER79SWM/electrolux-ergorapido-traadloes-stoevsuger-eer79swm-hvit.jpg?$fullsize$",
-                            "title": "Electrolux Ergorapido",
-                            "type": "picture-glance"
-                        },
-                        {
                             "cards": [
                                 {
                                     "entities": [
@@ -613,6 +605,14 @@
                                 }
                             ],
                             "type": "vertical-stack"
+                        },
+                        {
+                            "entities": [
+                                "switch.scene_etg1_stovsuger_lader"
+                            ],
+                            "image": "https://www.elkjop.no/image/dv_web_D18000100242710/EER79SWM/electrolux-ergorapido-traadloes-stoevsuger-eer79swm-hvit.jpg?$fullsize$",
+                            "title": "Electrolux Ergorapido",
+                            "type": "picture-glance"
                         }
                     ],
                     "icon": "mdi:spray-bottle",
