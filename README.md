@@ -8,6 +8,9 @@ Demooppsett av home-assistant
 3. Følg veileder
 
 ## Eksempler
+### Vise strømforbruk fra Tibber
+![](doc/images/tibber.png)
+
 ### Kort for vaskerom 
 ![](doc/images/vaskerom.png)
 
