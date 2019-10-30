@@ -1,0 +1,3 @@
+sensor.real_time_consumption_testvagen_72:
+  friendly_name: 'Husets strømforbruk'
+  icon: mdi:flash

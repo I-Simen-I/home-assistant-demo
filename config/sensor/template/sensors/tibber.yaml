@@ -1,0 +1,76 @@
+#Electricity stats
+tibber_grid_company:
+  friendly_name: 'Netteier'
+  icon_template: 'mdi:fuse'
+  value_template: >-
+    {{ state_attr('sensor.electricity_price_testvagen_72', 'grid_company') }}
+tibber_eac:
+  friendly_name: 'Estimert årlig forbruk'
+  icon_template: 'mdi:power-plug'
+  unit_of_measurement: "kWh"
+  value_template: >-
+    {{ state_attr('sensor.electricity_price_testvagen_72', 'estimated_annual_consumption') }}
+tibber_volt:
+  friendly_name: 'Spenning'
+  icon_template: 'mdi:flash'
+  unit_of_measurement: "V"
+  value_template: >-
+    {{ state_attr('sensor.real_time_consumption_testvagen_72', 'voltagePhase1') }}
+tibber_amp:
+  friendly_name: 'Strøm'
+  icon_template: 'mdi:current-ac'
+  unit_of_measurement: "A"
+  value_template: >-
+    {{ state_attr('sensor.real_time_consumption_testvagen_72', 'currentPhase1') }}
+
+#Price
+tibber_price_min:
+  friendly_name: 'Min'
+  icon_template: 'mdi:currency-usd'
+  unit_of_measurement: "NOK/kWh"
+  value_template: >-
+    {{ state_attr('sensor.electricity_price_testvagen_72', 'min_price') }}
+tibber_price_avg:
+  friendly_name: 'Avg'
+  icon_template: 'mdi:currency-usd'
+  unit_of_measurement: "NOK/kWh"
+  value_template: >-
+    {{ state_attr('sensor.electricity_price_testvagen_72', 'avg_price') }}
+tibber_price_max:
+  friendly_name: 'Max'
+  icon_template: 'mdi:currency-usd'
+  unit_of_measurement: "NOK/kWh"
+  value_template: >-
+    {{ state_attr('sensor.electricity_price_testvagen_72', 'max_price') }}
+tibber_accumulated_cost:
+  friendly_name: 'Kostnad i dag'
+  icon_template: 'mdi:currency-usd'
+  unit_of_measurement: "Kr"
+  value_template: >-
+    {{ state_attr('sensor.real_time_consumption_testvagen_72', 'accumulatedCost') | round(2) }}
+
+#Usage
+tibber_min_power:
+  friendly_name: 'Min'
+  icon_template: 'mdi:power-plug'
+  unit_of_measurement: "W"
+  value_template: >-
+    {{ state_attr('sensor.real_time_consumption_testvagen_72', 'minPower') }}
+tibber_avg_power:
+  friendly_name: 'Avg'
+  icon_template: 'mdi:power-plug'
+  unit_of_measurement: "W"
+  value_template: >-
+    {{ state_attr('sensor.real_time_consumption_testvagen_72', 'averagePower') }}
+tibber_max_power:
+  friendly_name: 'Max'
+  icon_template: 'mdi:power-plug'
+  unit_of_measurement: "W"
+  value_template: >-
+    {{ state_attr('sensor.real_time_consumption_testvagen_72', 'maxPower') }}
+tibber_accumulated_consumption:
+  friendly_name: 'Forbruk i dag'
+  icon_template: 'mdi:power-plug'
+  unit_of_measurement: "kWh"
+  value_template: >-
+    {{ state_attr('sensor.real_time_consumption_testvagen_72', 'accumulatedConsumption') | round(2) }}

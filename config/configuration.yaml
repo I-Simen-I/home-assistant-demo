@@ -30,3 +30,7 @@ lock: !include_dir_merge_list lock/
 cover: !include_dir_merge_list cover/
 sensor: !include_dir_merge_list sensor/
 switch: !include_dir_merge_list switch/
+
+# Tibber with demotoken
+tibber:
+  access_token: d1007ead2dc84a2b82f0de19451c5fb22112f7ae11d19bf2bedb224a003ff74a

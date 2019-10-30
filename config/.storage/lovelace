@@ -37,7 +37,7 @@
                                     "entity": "sensor.inne_average_temperature"
                                 },
                                 {
-                                    "entity": "sensor.inne_etg0_tekniskrom_stromforbruk"
+                                    "entity": "sensor.real_time_consumption_testvagen_72"
                                 },
                                 {
                                     "entity": "lock.inngangsdor"
@@ -266,9 +266,6 @@
                             "entities": [
                                 {
                                     "entity": "light.inne_etg0_tekniskrom_light"
-                                },
-                                {
-                                    "entity": "sensor.inne_etg0_tekniskrom_stromforbruk"
                                 }
                             ],
                             "show_header_toggle": false,
@@ -619,6 +616,127 @@
                     "panel": false,
                     "path": "rengjoring",
                     "title": "Rengj\u00f8ring"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "entity": "sensor.real_time_consumption_testvagen_72",
+                                    "max": 15000,
+                                    "min": 0,
+                                    "name": "Forbruk n\u00e5",
+                                    "severity": {
+                                        "green": 0,
+                                        "red": 11000,
+                                        "yellow": 8000
+                                    },
+                                    "theme": "default",
+                                    "type": "gauge"
+                                },
+                                {
+                                    "entity": "sensor.electricity_price_testvagen_72",
+                                    "graph": "line",
+                                    "max": 1,
+                                    "min": 0,
+                                    "name": "Pris n\u00e5",
+                                    "severity": {
+                                        "green": 0,
+                                        "red": 0.8,
+                                        "yellow": 0.5
+                                    },
+                                    "type": "gauge",
+                                    "unit": "NOK/kWh"
+                                }
+                            ],
+                            "type": "horizontal-stack"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.real_time_consumption_testvagen_72",
+                                            "name": "Forbruk"
+                                        }
+                                    ],
+                                    "hours_to_show": 24,
+                                    "refresh_interval": 10,
+                                    "title": "Forbruk siste 24t",
+                                    "type": "history-graph"
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.tibber_accumulated_consumption"
+                                        },
+                                        {
+                                            "entity": "sensor.tibber_accumulated_cost"
+                                        }
+                                    ],
+                                    "type": "entities"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.tibber_grid_company"
+                                },
+                                {
+                                    "entity": "sensor.tibber_volt"
+                                },
+                                {
+                                    "entity": "sensor.tibber_amp"
+                                },
+                                {
+                                    "entity": "sensor.tibber_eac"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "type": "entities"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.tibber_min_power"
+                                        },
+                                        {
+                                            "entity": "sensor.tibber_avg_power"
+                                        },
+                                        {
+                                            "entity": "sensor.tibber_max_power"
+                                        }
+                                    ],
+                                    "title": "Forbruk i dag",
+                                    "type": "glance"
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.tibber_price_min"
+                                        },
+                                        {
+                                            "entity": "sensor.tibber_price_avg"
+                                        },
+                                        {
+                                            "entity": "sensor.tibber_price_max"
+                                        }
+                                    ],
+                                    "title": "Priser i dag",
+                                    "type": "glance"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "icon": "mdi:flash",
+                    "path": "elektrisitet",
+                    "title": "Elektrisitet"
                 }
             ]
         }

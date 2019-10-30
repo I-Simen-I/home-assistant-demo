@@ -42,10 +42,6 @@ inne_etg0_bad_gulvvarme:
   friendly_name: 'Gulvvarme'
   value_template: 'off'
 
-inne_etg0_tekniskrom_stromforbruk:
-  friendly_name: 'Husets strømforbruk'
-  value_template: '509w'
-
 inne_etg0_gang_temperature:
   friendly_name: 'Temperatur'
   value_template: '{{ ((float(20.05))/ 1) | round(2) }}'
